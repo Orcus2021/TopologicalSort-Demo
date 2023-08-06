@@ -16,6 +16,7 @@ const GlobalStyle = createGlobalStyle`
 function App() {
   return (
     <ThemeProvider theme={THEME}>
+      <TopologicalPage />
       <GlobalStyle />
     </ThemeProvider>
   );
